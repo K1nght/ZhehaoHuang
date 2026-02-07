@@ -17,42 +17,56 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Currently, I am a fourth-year Ph.D. student (Zhiyuan Honors) at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), studying under the supervision of [Prof. Xiaolin Huang](http://www.pami.sjtu.edu.cn/xiaolin). My research interests primarily lie in efficient adaptation methods for LLMs or VLMs, with a specific focus on **continual learning** and their applications in **intelligent agents**. I welcome academic discussions and potential collaborations.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
+My research interest includes:
+- Continual Learning
+- Efficient Fine-tuning
+- LLM-based Agent
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.08*: &nbsp;🎉🎉 Our paper "Towards Natural Machine Unlearning" is accepted by **TPAMI**.
+- *2025.01*: &nbsp;🎉🎉 Our paper "Simulating Training Dynamics to Reconstruct Training Data from Deep Neural Networks" is accepted by **ICLR 2025**.
+- *2024.09*: &nbsp;🎉🎉 Our paper "Unified Gradient-Based Machine Unlearning with Remain Geometry Enhancement" is accepted by **NeurIPS 2024** as **Spotlight**.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024 Spotlight</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Unified Gradient-Based Machine Unlearning with Remain Geometry Enhancement](https://arxiv.org/pdf/2409.19732)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Zhehao Huang**, Xinwen Cheng, Jinghao Zheng, Haoran Wang, Zhengbao He, Tao Li, Xiaolin Huang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Code**](https://github.com/K1nght/Unified-Unlearning-w-Remain-Geometry) \| [**Project**](https://k1nght.github.io/Unified-Unlearning-project/) \| [**Poster**](https://neurips.cc/media/PosterPDFs/NeurIPS%202024/94324.png?t=1733198028.0248435) \| [**Slides**](https://neurips.cc/media/neurips-2024/Slides/94324.pdf)
+- This work proposes a fast-slow parameter update strategy to implicitly approximate the up-to-date salient unlearning direction, free from specific modal constraints, and adaptable across computer vision unlearning tasks, including classification and generation. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Poster</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Simulating Training Dynamics to Reconstruct Training Data from Deep Neural Networks](https://openreview.net/pdf?id=ZJftXKy12x)
+
+Hanling Tian, Yuhang Liu, Mingzhen He, Zhengbao He, **Zhehao Huang**, Ruikai Yang, Xiaolin Huang
+
+[**Code**](https://github.com/BlueBlood6/SimuDy) \| [**Poster**](https://iclr.cc/media/PosterPDFs/ICLR%202025/29225.png?t=1744123306.3932734) \| [**Slides**](https://iclr.cc/media/iclr-2025/Slides/29225.pdf)
+- This paper simulates the training dynamics to reconstruct training data from deep neural networks. 
+</div>
+</div>
+
+- [Bi-LoRA: Efficient Sharpness-Aware Minimization for Fine-Tuning Large-Scale Models](https://arxiv.org/pdf/2508.19564), Yuhang Liu, Tao Li, **Zhehao Huang**, Zuopeng Yang, Xiaolin Huang, **arXiv 2025**
+- [T2I-ConBench: Text-to-Image Benchmark for Continual Post-training](https://arxiv.org/pdf/2505.16875), **Zhehao Huang**, Yuhang Liu, Yixin Lou, Zhengbao He, Mingzhen He, Wenxing Zhou, Tao Li, Kehan Li, Zeyi Huang, Xiaolin Huang, **arXiv 2025**
+- [A Unified Gradient-based Framework for Task-agnostic Continual Learning-Unlearning](https://arxiv.org/pdf/2505.15178.pdf), **Zhehao Huang**, Xinwen Cheng, Jie Zhang, Jinghao Zheng, Haoran Wang, Zhengbao He, Tao Li, Xiaolin Huang, **arXiv 2025**
+- [Online Continual Learning via Logit Adjusted Softmax](https://arxiv.org/abs/2405.19137), **Zhehao Huang** et al., **2024**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.09* Zhiyuan Honors Ph.D. Program, Shanghai Jiao Tong University
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.09 - 2027.06 (expected)*, Ph.D. Student, Automation Science and Engineering, Shanghai Jiao Tong University 
+- *2018.09 - 2022.06*, B.Sc., Automation, Shanghai Jiao Tong University 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💻 Experience
+- *2024.06 - 2025.05*, Intern Algorithm Engineer, [Huawei](https://www.huawei.com/), Research on Continual Post-training for Text-to-Image Models.
+- *2021.08 - 2022.01*, Intern Algorithm Engineer, [ByteDance](https://www.bytedance.com/), Advertising Business Algorithm Development.
