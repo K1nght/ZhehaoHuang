@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Zhehao Huang - Academic Homepage"
-description              : "Ph.D. Student at Shanghai Jiao Tong University. Research interests include Continual Learning, Efficient Fine-tuning, and LLM-based Agent."
-repository               : "K1nght/K1nght.github.io"
+description              : ""
+repository               : "K1nght/ZhehaoHuang"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Zhehao Huang (黄哲浩)"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Ph.D. Student @ Shanghai Jiao Tong University"
+  name             : "Zhehao Huang (黄哲昊)"
+  avatar           : "images/airport.jpg"
+  bio              : "Ph.D. Student"
   location         : "Shanghai, China"
   employer         : "Shanghai Jiao Tong University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : # your email, e.g., "zhehaohuang@sjtu.edu.cn"
+  email            : "kinght_h@sjtu.edu.cn" # your email, e.g., "zhehaohuang@sjtu.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

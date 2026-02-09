@@ -17,55 +17,109 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Currently, I am a fourth-year Ph.D. student (Zhiyuan Honors) at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), studying under the supervision of [Prof. Xiaolin Huang](http://www.pami.sjtu.edu.cn/xiaolin). My research interests primarily lie in efficient adaptation methods for LLMs or VLMs, with a specific focus on **continual learning** and their applications in **intelligent agents**. I welcome academic discussions and potential collaborations.
+I am currently a fourth-year Ph.D. student (Zhiyuan Honors) at the [Institute of Image Processing and Pattern Recognition](http://www.pami.sjtu.edu.cn/En/Home), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), supervised by [Prof. Xiaolin Huang](http://www.pami.sjtu.edu.cn/xiaolin). My research focuses on **efficient adaptation methods** for large language models (LLMs) and vision-language models (VLMs), with particular interests in **continual learning** and its applications to **intelligent agents**. 
 
-My research interest includes:
-- Continual Learning
-- Efficient Fine-tuning
-- LLM-based Agent
+I am now visiting the MMLab at The Chinese University of Hong Kong (CUHK), under [Prof. Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/).
+
+I am always open to academic discussions and potential collaborations and and please feel free to contact me via email / wechat: HzKinght
+
 
 # 🔥 News
-- *2025.08*: &nbsp;🎉🎉 Our paper "Towards Natural Machine Unlearning" is accepted by **TPAMI**.
-- *2025.01*: &nbsp;🎉🎉 Our paper "Simulating Training Dynamics to Reconstruct Training Data from Deep Neural Networks" is accepted by **ICLR 2025**.
-- *2024.09*: &nbsp;🎉🎉 Our paper "Unified Gradient-Based Machine Unlearning with Remain Geometry Enhancement" is accepted by **NeurIPS 2024** as **Spotlight**.
+- *2026.02*: &nbsp;🎉🎉 Our paper "[RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format](https://openreview.net/forum?id=PO2iULmu5e)" is accepted by **ICLR 2026** as **Oral**!
+- *2026.02*: &nbsp;🎉🎉 Our paper "[Remaining-data-free Machine Unlearning by Suppressing Sample Contribution](https://openreview.net/forum?id=3iw5t2W41F)" is accepted by **ICLR 2026** as **Poster**. Congrats to collaborators!
+- *2026.02*: &nbsp;🎉🎉 Our paper "[Bi-LoRA: Efficient Sharpness-Aware Minimization for Fine-Tuning Large-Scale Models](https://openreview.net/forum?id=zoYPlgX1bH)" is accepted by **ICLR 2026** as **Poster**. Congrats to collaborators!
+- *2025.08*: &nbsp;🎉🎉 Our paper "[Towards Natural Machine Unlearning](https://ieeexplore.ieee.org/document/11122296)" is accepted by **TPAMI**. Congrats to collaborators!
+- *2025.01*: &nbsp;🎉🎉 Our paper "[Simulating Training Dynamics to Reconstruct Training Data from Deep Neural Networks](https://openreview.net/forum?id=ZJftXKy12x)" is accepted by **ICLR 2025** as **Poster**. Congrats to collaborators!
+- *2024.09*: &nbsp;🎉🎉 Our paper "[Unified Gradient-Based Machine Unlearning with Remain Geometry Enhancement](https://neurips.cc/virtual/2024/poster/94324)" is accepted by **NeurIPS 2024** as **Spotlight**!
+- *2024.04*: &nbsp;🎉🎉 Our paper "[Online Continual Learning via Logit Adjusted Softmax](https://openreview.net/forum?id=MyQKcQAte6)" is accepted by **TMLR 2024**.
 
-# 📝 Publications 
+# 📝 Featured Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024 Spotlight</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/VL-RouterBench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Unified Gradient-Based Machine Unlearning with Remain Geometry Enhancement](https://arxiv.org/pdf/2409.19732)
+[VL-RouterBench: A Benchmark for Vision-Language Model Routing](https://arxiv.org/abs/2512.23562)
+
+**Zhehao Huang**, Baijiong Lin, Jingyuan Zhang, Yuhang Liu, Ning, Lu, Tao Li, Xiaolin Huang
+
+[**Code**](https://github.com/K1nght/VL-RouterBench) \| [**Dataset**](https://huggingface.co/datasets/KinghtH/VL-RouterBench)
+
+This paper addresses the lack of systematic evaluation for VLM routing by introducing **VL-RouterBench**, a comprehensive benchmark covering 14 datasets and 17 models that measures the trade-offs through evaluating 10 routing methods, it reveals a "routability gain" but highlights a gap between current routers and the Oracle, providing an open-source toolchain to advance more efficient, VLM routing deployments.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026 (Oral)</div><img src='images/RAIN-Merging.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format](https://openreview.net/forum?id=PO2iULmu5e)
+
+**Zhehao Huang**, Yuhang Liu, Baijiong Lin, Yixin Lou, Zhengbao He, Hanling Tian, Tao Li, Xiaolin Huang
+
+[**Code**]() \| [**Project**]() \| [**Dataset**]() \| [**Poster**]() \| [**Slides**]() (coming soon)
+
+This paper identifies that LRMs struggle with strict instruction following despite reasoning, and introduces **RAIN-Merging**, a gradient-free method that integrates instruction-tuned features into the LRM's null space to preserve structured "thinking" formats while significantly enhancing constraint adherence across various scales and tasks without compromising reasoning quality.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/T2I-ConBench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[T2I-ConBench: Text-to-Image Benchmark for Continual Post-training](https://arxiv.org/abs/2505.16875)
+
+**Zhehao Huang**, Yuhang Liu, Yixin Lou, Zhengbao He, Mingzhen He, Wenxing Zhou, Tao Li, Kehan Li, Zeyi Huang, Xiaolin Huang
+
+[**Code**](https://github.com/K1nght/T2I-ConBench) \| [**Project**](https://k1nght.github.io/T2I-ConBench/) \| [**Dataset**](https://huggingface.co/datasets/T2I-ConBench/T2I-ConBench)
+
+This paper identifies that naive continual post-training in text-to-image models causes catastrophic forgetting and loss of compositionality, and introduces **T2I-ConBench**, a unified benchmark that evaluates models across four key dimensions—including generality retention and cross-task generalization, providing a standardized foundation for future research.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/UG-CLU.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Unified Gradient-based Framework for Task-agnostic Continual Learning-Unlearning](https://arxiv.org/abs/2505.15178.pdf)
+
+**Zhehao Huang**, Xinwen Cheng, Jie Zhang, Jinghao Zheng, Haoran Wang, Zhengbao He, Tao Li, Xiaolin Huang
+
+This paper demonstrates that learning and forgetting are mathematically linked through a unified framework, and proposes **UG-CLU** to balance new knowledge acquisition with precise data removal by using a weight-adaptation mechanism and manifold constraints, enabling stable, task-agnostic unlearning at both the category and sample levels without retraining from scratch.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024 (Spotlight)</div><img src='images/sfr-on.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Unified Gradient-Based Machine Unlearning with Remain Geometry Enhancement](https://neurips.cc/virtual/2024/poster/94324)
 
 **Zhehao Huang**, Xinwen Cheng, Jinghao Zheng, Haoran Wang, Zhengbao He, Tao Li, Xiaolin Huang
 
 [**Code**](https://github.com/K1nght/Unified-Unlearning-w-Remain-Geometry) \| [**Project**](https://k1nght.github.io/Unified-Unlearning-project/) \| [**Poster**](https://neurips.cc/media/PosterPDFs/NeurIPS%202024/94324.png?t=1733198028.0248435) \| [**Slides**](https://neurips.cc/media/neurips-2024/Slides/94324.pdf)
-- This work proposes a fast-slow parameter update strategy to implicitly approximate the up-to-date salient unlearning direction, free from specific modal constraints, and adaptable across computer vision unlearning tasks, including classification and generation. 
+
+This work proposes a fast-slow parameter update strategy to implicitly approximate the up-to-date salient unlearning direction, free from specific modal constraints, and adaptable across computer vision unlearning tasks, including classification and generation. 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Poster</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMLR 2024</div><img src='images/er-las.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Simulating Training Dynamics to Reconstruct Training Data from Deep Neural Networks](https://openreview.net/pdf?id=ZJftXKy12x)
+[Online Continual Learning via Logit Adjusted Softmax](https://openreview.net/forum?id=MyQKcQAte6)
 
-Hanling Tian, Yuhang Liu, Mingzhen He, Zhengbao He, **Zhehao Huang**, Ruikai Yang, Xiaolin Huang
+**Zhehao Huang**, Tao Li, Chenhe Yuan, Yingwen Wu, Xiaolin Huang
 
-[**Code**](https://github.com/BlueBlood6/SimuDy) \| [**Poster**](https://iclr.cc/media/PosterPDFs/ICLR%202025/29225.png?t=1744123306.3932734) \| [**Slides**](https://iclr.cc/media/iclr-2025/Slides/29225.pdf)
-- This paper simulates the training dynamics to reconstruct training data from deep neural networks. 
+[**Code**](https://github.com/K1nght/online_CL_logit_adjusted_softmax)
+
+This paper shows that inter-class imbalance in online continual learning is fundamentally caused by imbalanced (time-varying) class priors, and proposes **Logit Adjusted Softmax (LAS)** to counter prior-induced bias by adjusting logits during training, improving performance across class-IL and class+domain incremental settings with minimal overhead.
 </div>
 </div>
 
-- [Bi-LoRA: Efficient Sharpness-Aware Minimization for Fine-Tuning Large-Scale Models](https://arxiv.org/pdf/2508.19564), Yuhang Liu, Tao Li, **Zhehao Huang**, Zuopeng Yang, Xiaolin Huang, **arXiv 2025**
-- [T2I-ConBench: Text-to-Image Benchmark for Continual Post-training](https://arxiv.org/pdf/2505.16875), **Zhehao Huang**, Yuhang Liu, Yixin Lou, Zhengbao He, Mingzhen He, Wenxing Zhou, Tao Li, Kehan Li, Zeyi Huang, Xiaolin Huang, **arXiv 2025**
-- [A Unified Gradient-based Framework for Task-agnostic Continual Learning-Unlearning](https://arxiv.org/pdf/2505.15178.pdf), **Zhehao Huang**, Xinwen Cheng, Jie Zhang, Jinghao Zheng, Haoran Wang, Zhengbao He, Tao Li, Xiaolin Huang, **arXiv 2025**
-- [Online Continual Learning via Logit Adjusted Softmax](https://arxiv.org/abs/2405.19137), **Zhehao Huang** et al., **2024**
 
 # 🎖 Honors and Awards
-- *2022.09* Zhiyuan Honors Ph.D. Program, Shanghai Jiao Tong University
+- *2021.04* 2021 Interdisciplinary Contest In Modeling (ICM) *Meritorious Winner*
+- *2020.08* National University Intelligent Car Competition *National Third Prize*
+- *2019.11* Shanghai Jiao Tong University *B Class Excellent Scholarship*（< 10%）
 
 # 📖 Educations
-- *2022.09 - 2027.06 (expected)*, Ph.D. Student, Automation Science and Engineering, Shanghai Jiao Tong University 
-- *2018.09 - 2022.06*, B.Sc., Automation, Shanghai Jiao Tong University 
+- *2022.09 - 2027.06 (expected)*, Ph.D. Student, Control Science and Engineering, Shanghai Jiao Tong University, China
+- *2018.09 - 2022.06*, B.Eng., Automation, Shanghai Jiao Tong University, China
 
 # 💻 Experience
 - *2024.06 - 2025.05*, Intern Algorithm Engineer, [Huawei](https://www.huawei.com/), Research on Continual Post-training for Text-to-Image Models.
